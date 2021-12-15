@@ -1,5 +1,5 @@
 function binarySearch(array, targetNum) {
-    const middle = array.length / 2;
+    const middle = Math.floor(array.length / 2);
     if(array[middle] === targetNum){
         console.log('찾았다', array[middle]);
         return
